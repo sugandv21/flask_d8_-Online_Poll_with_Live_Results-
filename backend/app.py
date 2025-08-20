@@ -40,4 +40,5 @@ def vote():
     return jsonify({"message": f"Vote recorded for {option}", "results": poll["options"]})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
